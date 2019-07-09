@@ -233,7 +233,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  /* margin-bottom: 10em; */
   clear: both; }
   #hero .flexslider {
     border: none;
@@ -246,9 +246,10 @@ figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        min-height: 900px;
+        min-height: 100%;
         position: relative;
-        left: -25px; }
+        left: -20px;
+        bottom: -54px; }
     #hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
@@ -389,7 +390,7 @@ body.offcanvas {
     .work,
     .about,
     .contact {
-      padding-top: 20em;
+      padding-top: 6em;
       padding-bottom: 8em; } }
 
 .author-img {
